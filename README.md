@@ -1,6 +1,6 @@
 # AutoFormat-Script-Windows
 This script works for formatting drives so that they are recognized in windows.  
-Tools needed on linux are exfat-utils and gparted.  
+You need exfat-utils for this to work.  
 Exfat-utils can be installed with  
 
 On Arch based distros  
@@ -8,11 +8,3 @@ On Arch based distros
 
 On Debian based distros  
 <code> sudo apt install exfatprogs</code>  
-
-Gparted can be installed with  
-
-On Arch based distros  
-<code> yay -S gparted </code>  
-
-On Debian based distros  
-<code>sudo apt install parted</code>
